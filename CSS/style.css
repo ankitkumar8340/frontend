@@ -1,0 +1,28 @@
+.container{
+    display: grid;   
+    /* inline- grid, grid */
+    grid-template-columns:200px repeat(4, 1fr);  /* 200px 200px 200px */
+    grid-template-rows: 100px 100px;
+    gap: 20px;
+    background-color: red;
+    padding: 20px;
+}
+
+.container > div{
+    border: 2px solid gray;
+    background-color: aqua;
+    text-align: center;
+    padding:20px;
+}
+
+.item{
+    /* grid-column: 3 / 4;   starting  / ending */   
+    grid-column: span 2;
+    grid-row: 2/3;
+    
+}
+
+/* .item{
+    grid-column: 2/4;
+    grid-row: 1/3;
+} */
