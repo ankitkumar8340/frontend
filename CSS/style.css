@@ -24,12 +24,17 @@
     
 } */
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 
 .container{
     display: grid;
     grid-template-columns: 500px repeat(2, 1fr);
     grid-template-rows: 60px 250px 250px 60px;
-    border: 2px solid black;
+    border: none;
 
 } 
 
@@ -78,14 +83,82 @@
     justify-content: center; 
 }
 
-.item2{
+.body{
     grid-row: 2/ 4;
+    display: block;
+    align-items: center;
+}
+
+.body h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 130px;
+    font-size:xxx-large;
+    margin-left: 40px;
+    margin-right: 110px;
+    margin-bottom: 0;
 
 }
 
-.item7{
+.body p{
+    color: white;
+    margin-left: 40px;
+    margin-right: 120px;
+}
+
+.bottom{
     grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
+.bottom p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.reach{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 10vh; */
+    cursor: pointer;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.top img{
+    margin-top: 25px;
+    height: 25px;
+    width: 25px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.bottom h4{
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+
+.bottom p{
+    margin-top: 0;
+    margin-left: 25px;
+}
+
 
 
 
