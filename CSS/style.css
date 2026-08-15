@@ -106,17 +106,19 @@ body{
     margin-right: 120px;
 }
 
-.bottom{
+.bottom1{
     grid-column: 1/4;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
 }
-.bottom p{
+.bottom1 p{
     margin-left: 40px;
     margin-right: 40px;
 }
+
+
 
 .reach{
     display: flex;
