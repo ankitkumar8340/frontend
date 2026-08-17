@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body >
     <div class="container">
@@ -17,7 +18,7 @@
             </div>
 
             <div class="right">
-           <button type="button" aria-label="icon-menu" class="icon-btn"><img src="../CSS/assets/images/icon-menu.svg" alt="">
+           <button type="button" aria-label="icon-menu" class="icon-btn" id="openBtn"><img src="../CSS/assets/images/icon-menu.svg" alt="">
             </button> 
             </div>
         </div>
@@ -90,20 +91,20 @@
 
     
     <nav class="menu-overlay" id="menuOverlay">
-         <div class="navbar">
-            <div class="left">
+         <div class="navbar1">
+            <!-- <div class="left">
             <img src="../CSS/assets/images/favicon-32x32.png" alt="">
 
             <h4>Bridge Collective</h4>
-            </div>
+            </div> -->
 
             <div class="right">
-           <button type="button" aria-label="close-menu" class="close-btn"><img src="../CSS/assets/images/icon-close.svg" alt="">
+           <button type="button" aria-label="close-menu" class="icon-btn" id="closeBtn"><img src="../CSS/assets/images/icon-close.svg" alt="">
             </button> 
             </div>
         </div>
 
-        <div class="menu-lin">
+        <div class="menu-link">
             <a href="#" class="active-link">About</a>
             <a href="#">Our work</a>
             <a href="#">Partners</a>
