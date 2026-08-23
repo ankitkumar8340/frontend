@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+    background-color: blue;
+}
+
+.book-store-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    padding: 20px;
+    
+}
+
+
+.book1{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   
+}
+
+.book1-img{
+     height:450px;
+    width: 450px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book1-detail{
+    flex: 1;
+}
+
+
+.book2{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.book2-img{
+    height: 450px;
+    width: 450px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book2-detail{
+    flex: 1;
+}
+
+
+
+.book3{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.book3-img{
+    height: 450px;
+    width: 450px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book3-detail{
+    flex: 1;
+}
+
+
+
+.book4{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-radius: 5px;
+}
+
+.book4-img{
+    height: 450px;
+    width: 450px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book4-detail{
+    flex: 1;
+}
+
+
+
+
+
+.book5{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.book5-img{
+    height: 450px;
+    width: 450px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book5-detail{
+    flex: 1;
+}
+
+
+
+
+.book6{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.book6-img{
+    height: 450px;
+    width: 450px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book6-detail{
+    flex: 1;
+}
+
+
+
+
+.book7{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-radius: 5px;
+}
+
+.book7-img{
+    height: 450px;
+    width: 450px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book7-detail{
+    flex: 1;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #2563eb;
+    border: none;
+    color: #ffffff;
+
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
+    transition: all 0.2s ease-in-out;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
