@@ -23,3 +23,9 @@ A responsive, scroll-driven web application built to sharpen core frontend funda
 *** Day1 completed ***
 
 
+#### **Day 2: August 24, 2026**
+
+* **Adding some buttons in the left of nav bar like add to cart, profile, search, library
+
+*** Day2 completed ***
+
