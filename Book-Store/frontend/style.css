@@ -89,7 +89,7 @@ body.theme7 {
 
 .nav-btn{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 30px;
     align-items: center;
     /* align-items: flex-end; */
@@ -290,3 +290,72 @@ body.theme7 {
     display: flex;
     gap: 30px;
 }
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #f1f3f4;
+    border-radius: 24px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.search-bar:focus-within{
+    background-color: #ffffff;
+    border-color: #0070f3;
+    box-shadow: 0 0 3px rgba(0, 112, 243, 0.15);
+}
+
+.search-bar input{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 3px 4px;
+    color: #333;
+    font-size: 15px;
+
+}
+
+.search-bar button{
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   cursor: pointer;
+    justify-content: center;
+    padding: 2px;
+    transition: color 0.2s;
+}
+
+.search-bar button:hover{
+    color: #0070f3;
+}
+
+.btn-svg{
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+}
+.btn-svg button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #1a1a1a;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+
+.btn-svg button:hover{
+    color: #22adc5;
+    filter: drop-shadow(0 0 3px black);
+    
+
+}
+
+

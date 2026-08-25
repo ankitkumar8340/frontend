@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,78 +8,170 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body class="theme1">
     <div>
-    <nav class="nav">
-    <section class="heading">
-    <h1 class="book-store-heading">Book Store</h1>
-    </section>
+        <nav class="nav">
+            <section class="heading">
+                <h1 class="book-store-heading">Book Store</h1>
+            </section>
 
-    <section class="nav-btn">
-       <button>
-        <img src="../icons/search-alt.svg" alt="search-icon.svg"> 
-       </button>
-       <button>
-        <img src="../icons/cart-alt.svg" alt="cart.svg">
-       </button>
-       <button>
-        <img src="../icons/book-library.svg" alt="book-library.svg">
-       </button>
+            <section class="nav-btn">
 
-       <button>
-        <img src="../icons/user.svg" alt="user.svg">
-       </button>
-    </section>
-    </nav>
+                <section>
+                <form action="/search" method="GET" class="search-bar">
+                    <input type="text" placeholder="search-books" name="q" autocomplete="off">
+                    <button type="submit" aria-label="search">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" transform=""
+                            id="injected-svg"
+                            xmlns="http://www.w3.org/2000/svg"><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                            <path
+                                d="m17.06 14.94-2.8-1.34A6.96 6.96 0 0 0 16 9c0-3.86-3.14-7-7-7S2 5.14 2 9s3.14 7 7 7c1.76 0 3.37-.66 4.6-1.74l1.34 2.8 5 5 2.12-2.12zM9 14c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5">
+                            </path>
+                        </svg>
+                    </button>
+                </form>
+                </section>
+
+
+                <section class="btn-svg">
+                    <button>
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" transform=""
+                            id="injected-svg"
+                            xmlns="http://www.w3.org/2000/svg"><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                            <path
+                                d="M21 4H6.17l-.18-1.15A1 1 0 0 0 5 2H2v2h2.14l1.87 12.15A1 1 0 0 0 7 17h12v-2H7.86l-.31-2H19c.45 0 .84-.3.96-.73l2-7A1 1 0 0 0 21 3.99Zm-2.75 7H7.24l-.77-5h13.2l-1.43 5ZM8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4">
+                            </path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" transform=""
+                            id="injected-svg"
+                            xmlns="http://www.w3.org/2000/svg"><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                            <path
+                                d="M9 3h2v18H9zm11.71 17.23-3.8-8.15-3.81-8.16-.9.42-.91.43 3.8 8.15 3.81 8.16.9-.42zM6 3h2v18H6zM3 3h2v18H3z">
+                            </path>
+                        </svg>
+                    </button>
+
+                    <button>
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" transform=""
+                            id="injected-svg"
+                            xmlns="http://www.w3.org/2000/svg"><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                            <path
+                                d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5m0-8c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3M4 22h16c.55 0 1-.45 1-1v-1c0-3.86-3.14-7-7-7h-4c-3.86 0-7 3.14-7 7v1c0 .55.45 1 1 1m6-7h4c2.76 0 5 2.24 5 5H5c0-2.76 2.24-5 5-5">
+                            </path>
+                        </svg>
+                    </button>
+                </section>
+            </section>
+
+        </nav>
 
     </div>
 
-    
+
+
+
     <div class="books">
 
         <div class="book1 book" data-theme="theme1">
             <img src="../images/pexels-beyzaa-yurtkuran-279977530-19208445.jpg" alt="book.jpg" class="book1-img">
             <div>
                 <div class="buttons">
-                <button class="btn">Buy now </button>
-                <button class="btn">Add to cart</button>
-                <button class="btn">Read Book</button>
+                    <button class="btn">Buy now </button>
+                    <button class="btn">Add to cart</button>
+                    <button class="btn">Read Book</button>
                 </div>
-            <p class="book1-detail">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente culpa nisi doloribus assumenda officiis libero doloremque eligendi? Hic ab aspernatur accusamus soluta sapiente perferendis! Praesentium incidunt nesciunt, ipsa impedit distinctio esse enim est hic alias cumque earum aliquam quaerat ratione ullam quasi quis dolores! Amet quaerat sit suscipit aspernatur itaque debitis error explicabo iusto odio, iste ea modi soluta qui iure? Itaque expedita molestiae libero obcaecati corrupti hic! Rem ut cum vero necessitatibus cumque harum quas, enim voluptas officia omnis eveniet sapiente tempore pariatur maxime officiis quae nesciunt provident praesentium odio culpa similique dignissimos. Non officiis, natus tempora voluptatum dolorem inventore dolorum iste maxime eum optio quos ipsum nobis sapiente eligendi aperiam at debitis eius aspernatur saepe modi eos nostrum? Tenetur impedit vel labore perferendis, quisquam facere quos reprehenderit itaque dolor maiores quod illo sunt magni error minus architecto odio corporis? Optio saepe autem ullam aliquam nihil voluptas id, similique nemo eveniet ut in aut quas laudantium velit laboriosam. Aut inventore adipisci architecto aspernatur? Quod provident vitae, architecto repudiandae labore, accusamus totam sequi fugiat inventore quis quisquam ratione illo atque officia recusandae soluta incidunt iure id, cumque facilis corrupti! Itaque harum quis delectus eligendi amet quia illum ad esse nemo beatae praesentium molestiae sapiente non nisi doloremque omnis laboriosam, quos velit est? Fugiat eum facilis possimus quod magnam! In commodi nam, obcaecati illo quod sit labore facere aspernatur odio laboriosam voluptas doloribus reiciendis, eum voluptate et. Obcaecati cumque officiis, autem iure veritatis voluptatibus excepturi itaque natus porro alias qui?
-            </p>
+                <p class="book1-detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente culpa nisi doloribus
+                    assumenda officiis libero doloremque eligendi? Hic ab aspernatur accusamus soluta sapiente
+                    perferendis! Praesentium incidunt nesciunt, ipsa impedit distinctio esse enim est hic alias cumque
+                    earum aliquam quaerat ratione ullam quasi quis dolores! Amet quaerat sit suscipit aspernatur itaque
+                    debitis error explicabo iusto odio, iste ea modi soluta qui iure? Itaque expedita molestiae libero
+                    obcaecati corrupti hic! Rem ut cum vero necessitatibus cumque harum quas, enim voluptas officia
+                    omnis eveniet sapiente tempore pariatur maxime officiis quae nesciunt provident praesentium odio
+                    culpa similique dignissimos. Non officiis, natus tempora voluptatum dolorem inventore dolorum iste
+                    maxime eum optio quos ipsum nobis sapiente eligendi aperiam at debitis eius aspernatur saepe modi
+                    eos nostrum? Tenetur impedit vel labore perferendis, quisquam facere quos reprehenderit itaque dolor
+                    maiores quod illo sunt magni error minus architecto odio corporis? Optio saepe autem ullam aliquam
+                    nihil voluptas id, similique nemo eveniet ut in aut quas laudantium velit laboriosam. Aut inventore
+                    adipisci architecto aspernatur? Quod provident vitae, architecto repudiandae labore, accusamus totam
+                    sequi fugiat inventore quis quisquam ratione illo atque officia recusandae soluta incidunt iure id,
+                    cumque facilis corrupti! Itaque harum quis delectus eligendi amet quia illum ad esse nemo beatae
+                    praesentium molestiae sapiente non nisi doloremque omnis laboriosam, quos velit est? Fugiat eum
+                    facilis possimus quod magnam! In commodi nam, obcaecati illo quod sit labore facere aspernatur odio
+                    laboriosam voluptas doloribus reiciendis, eum voluptate et. Obcaecati cumque officiis, autem iure
+                    veritatis voluptatibus excepturi itaque natus porro alias qui?
+                </p>
             </div>
         </div>
 
         <div class="book2 book" data-theme="theme2">
             <img src="../images/pexels-book-hut-440747141-19905625.jpg" alt="book.jpg" class="book2-img">
-                <div>
+            <div>
 
                 <div class="buttons">
-                <button class="btn">Buy now </button>
-                <button class="btn">Add to cart</button>
-                <button class="btn">Read Book</button>
+                    <button class="btn">Buy now </button>
+                    <button class="btn">Add to cart</button>
+                    <button class="btn">Read Book</button>
                 </div>
-            <p class="book2-detail">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem? Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam, unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis, incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus aperiam veniam recusandae! Itaque quis incidunt nobis.
+                <p class="book2-detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci
+                    aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo
+                    asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in
+                    reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet
+                    optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus
+                    ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni
+                    officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti
+                    accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas
+                    obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem?
+                    Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci
+                    beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam,
+                    unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed
+                    exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus
+                    temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis,
+                    incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed
+                    unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error
+                    voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima
+                    hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus
+                    aperiam veniam recusandae! Itaque quis incidunt nobis.
 
-            </p>
+                </p>
             </div>
 
         </div>
 
         <div class="book3 book" data-theme="theme3">
             <img src="../images/pexels-dauphotographer-31461816.jpg" alt="book.jpg" class="book3-img">
-                <div>
-                    <div class="buttons">
-                <button class="btn">Buy now </button>
-                <button class="btn">Add to cart</button>
-                <button class="btn">Read Book</button>
+            <div>
+                <div class="buttons">
+                    <button class="btn">Buy now </button>
+                    <button class="btn">Add to cart</button>
+                    <button class="btn">Read Book</button>
                 </div>
-            <p class="book3-detail">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem? Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam, unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis, incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus aperiam veniam recusandae! Itaque quis incidunt nobis.
+                <p class="book3-detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci
+                    aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo
+                    asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in
+                    reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet
+                    optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus
+                    ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni
+                    officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti
+                    accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas
+                    obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem?
+                    Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci
+                    beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam,
+                    unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed
+                    exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus
+                    temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis,
+                    incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed
+                    unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error
+                    voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima
+                    hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus
+                    aperiam veniam recusandae! Itaque quis incidunt nobis.
 
-            </p>
+                </p>
             </div>
 
         </div>
@@ -88,14 +181,32 @@
             <div>
 
                 <div class="buttons">
-                <button class="btn">Buy now </button>
-                <button class="btn">Add to cart</button>
-                <button class="btn">Read Book</button>
+                    <button class="btn">Buy now </button>
+                    <button class="btn">Add to cart</button>
+                    <button class="btn">Read Book</button>
                 </div>
-            <p class="book4-detail">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem? Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam, unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis, incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus aperiam veniam recusandae! Itaque quis incidunt nobis.
+                <p class="book4-detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci
+                    aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo
+                    asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in
+                    reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet
+                    optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus
+                    ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni
+                    officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti
+                    accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas
+                    obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem?
+                    Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci
+                    beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam,
+                    unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed
+                    exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus
+                    temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis,
+                    incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed
+                    unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error
+                    voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima
+                    hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus
+                    aperiam veniam recusandae! Itaque quis incidunt nobis.
 
-            </p>
+                </p>
             </div>
 
         </div>
@@ -104,14 +215,32 @@
 
             <div>
                 <div class="buttons">
-                <button class="btn">Buy now </button>
-                <button class="btn">Add to cart</button>
-                <button class="btn">Read Book</button>
+                    <button class="btn">Buy now </button>
+                    <button class="btn">Add to cart</button>
+                    <button class="btn">Read Book</button>
                 </div>
-            <p class="book5-detail">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem? Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam, unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis, incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus aperiam veniam recusandae! Itaque quis incidunt nobis.
+                <p class="book5-detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci
+                    aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo
+                    asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in
+                    reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet
+                    optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus
+                    ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni
+                    officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti
+                    accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas
+                    obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem?
+                    Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci
+                    beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam,
+                    unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed
+                    exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus
+                    temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis,
+                    incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed
+                    unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error
+                    voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima
+                    hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus
+                    aperiam veniam recusandae! Itaque quis incidunt nobis.
 
-            </p>
+                </p>
             </div>
         </div>
         <div class="book6 book" data-theme="theme6">
@@ -119,14 +248,32 @@
 
             <div>
                 <div class="buttons">
-                <button class="btn">Buy now </button>
-                <button class="btn">Add to cart</button>
-                <button class="btn">Read Book</button>
+                    <button class="btn">Buy now </button>
+                    <button class="btn">Add to cart</button>
+                    <button class="btn">Read Book</button>
                 </div>
-            <p class="book6-detail">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem? Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam, unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis, incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus aperiam veniam recusandae! Itaque quis incidunt nobis.
+                <p class="book6-detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci
+                    aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo
+                    asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in
+                    reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet
+                    optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus
+                    ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni
+                    officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti
+                    accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas
+                    obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem?
+                    Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci
+                    beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam,
+                    unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed
+                    exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus
+                    temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis,
+                    incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed
+                    unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error
+                    voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima
+                    hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus
+                    aperiam veniam recusandae! Itaque quis incidunt nobis.
 
-            </p>
+                </p>
             </div>
 
         </div>
@@ -135,28 +282,47 @@
 
             <div>
                 <div class="buttons">
-                <button class="btn">Buy now </button>
-                <button class="btn">Add to cart</button>
-                <button class="btn">Read Book</button>
+                    <button class="btn">Buy now </button>
+                    <button class="btn">Add to cart</button>
+                    <button class="btn">Read Book</button>
                 </div>
-            
-            <p class="book7-detail">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem? Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam, unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis, incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus aperiam veniam recusandae! Itaque quis incidunt nobis.
 
-            </p>
+                <p class="book7-detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique, pariatur adipisci
+                    aliquid temporibus sunt molestias. Numquam dolorum nemo necessitatibus mollitia nesciunt quo
+                    asperiores. Enim nobis deserunt, sunt soluta neque iure ducimus facere hic sit tempore iste, in
+                    reprehenderit vel impedit quis quam minima at distinctio fuga, nisi aliquid odio dolorum eveniet
+                    optio! Earum soluta reprehenderit dolorum enim obcaecati asperiores ut minima expedita voluptatibus
+                    ad, molestiae temporibus consequuntur harum nostrum fuga esse qui tenetur reiciendis dolorem magni
+                    officiis deserunt laborum distinctio non. Dolor sit cupiditate praesentium hic? Beatae deleniti
+                    accusamus culpa. Eos totam nihil error atque natus repellendus provident sed tenetur illo quas
+                    obcaecati sapiente recusandae suscipit ratione vero, fuga quod voluptas eaque ea commodi a rem?
+                    Ullam soluta expedita quis! Asperiores, laborum! Reiciendis veniam atque totam eum nobis, adipisci
+                    beatae id ipsam quia earum est quas labore error pariatur rem inventore fugit hic tenetur quibusdam,
+                    unde nostrum sunt eos? Esse cumque, dolor placeat magni ut saepe adipisci commodi itaque sed
+                    exercitationem ea a nihil blanditiis non rerum? Nisi est nobis porro id rerum neque sed ipsum natus
+                    temporibus adipisci recusandae sequi impedit maxime facere ut, saepe inventore nihil! Perspiciatis,
+                    incidunt. Exercitationem maiores, facilis amet rem quasi quas autem expedita aliquid asperiores. Sed
+                    unde magni impedit officiis cupiditate reiciendis dolorum quam? Aspernatur numquam dicta error
+                    voluptas vel nam cum ea sed beatae exercitationem illo soluta quaerat qui ducimus architecto minima
+                    hic aliquid possimus tempora, ratione, laborum ipsa et. Praesentium, recusandae quia. Nobis ducimus
+                    aperiam veniam recusandae! Itaque quis incidunt nobis.
+
+                </p>
             </div>
 
         </div>
 
     </div>
 
-  
 
 
 
 
 
 
-    
+
+
 </body>
+
 </html>
