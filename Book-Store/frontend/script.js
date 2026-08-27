@@ -7,7 +7,7 @@ const observer = new IntersectionObserver((entries)=>{
         }
     });
 
-},{threshold: 0.8}
+},{threshold: 0.10}
 );
 
 books.forEach(book => observer.observe(book));
